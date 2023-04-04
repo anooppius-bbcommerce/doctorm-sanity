@@ -1,7 +1,7 @@
 export default {
   type: 'object',
   name: 'imageWithTextGrid',
-  title: 'Image with text grid',
+  title: 'Image with Text : Grid',
   fields: [
     {
       name: 'text',
@@ -11,7 +11,7 @@ export default {
     {
       name: 'contents',
       type: 'array',
-      title: 'Image with text grid',
+      title: 'Image with Text : Grid',
       of: [{ type: 'imageWithText' }],
     },
   ]

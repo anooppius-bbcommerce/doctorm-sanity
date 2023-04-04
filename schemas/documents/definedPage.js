@@ -57,6 +57,7 @@ const definedPage = {
         list: [
           { title: 'Select a page type', value: '' },
           { title: 'Home', value: 'home' },
+          { title: 'PDP', value: 'pdp' },
         ],
       },
     },
