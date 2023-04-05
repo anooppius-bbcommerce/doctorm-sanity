@@ -32,7 +32,7 @@ const productSearchBox = {
     },
     {
       name: 'price',
-      type: 'string',
+      type: 'number',
       title: '',
     },
     {
