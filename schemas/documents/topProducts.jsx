@@ -30,6 +30,16 @@ const productSearchBox = {
       type: 'string',
       title: '',
     },
+    {
+      name: 'price',
+      type: 'string',
+      title: '',
+    },
+    {
+      name: 'slug',
+      type: 'string',
+      title: '',
+    },
   ],
   preview: {
     select: {

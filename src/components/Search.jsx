@@ -24,11 +24,11 @@ const searchClient = {
 
 function HitComponent({ Hit, handleItemSelect }) {
   const { hit } = Hit;
-  const { productId, productName, thumbnail } = hit;
+  const { productId, productName, thumbnail, grossPrice, slug } = hit;
   return (
     <>
       <Box sx={{ background: '#fff' }}>
-        <a onClick={(e) => handleItemSelect(e, { _key: productId, productId, productName, productImage: thumbnail })}>
+        <a onClick={(e) => handleItemSelect(e, { _key: productId, productId, productName, productImage: thumbnail, price: grossPrice, slug })}>
           <span>
             <img src={hit.thumbnail} width="100" height="50"></img>
           </span>
