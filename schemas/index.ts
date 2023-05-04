@@ -8,6 +8,7 @@ import { bannerCarousal, bannerCarousalItem, bannerButton } from './documents/ba
 import imageWithText from './documents/imageWithText'
 import imageWithTextGrid from './documents/imageWithTextGrid'
 import catalogueBanner from './documents/catalogueBanner'
+import customMedia from './documents/customMedia'
 import linkWithText from './documents/linkWithText'
 import { topProducts, productSearchBox } from './documents/topProducts'
 import richTextEditor from './documents/richTextEditor'
@@ -16,7 +17,7 @@ import { topBrand, topBrands } from './documents/topBrands'
 
 export const schemaTypes = [
     ...definedPages, header, pdp, category, blockContent, seo, imageWithText,
-    imageWithTextGrid, catalogueBanner, bannerButton, bannerCarousalItem, bannerCarousal,
+    imageWithTextGrid, catalogueBanner, customMedia, bannerButton, bannerCarousalItem, bannerCarousal,
     topCategory, topCategories, topBrand, topBrands, linkWithText,
     productSearchBox, topProducts, ...richTextEditor
 ];

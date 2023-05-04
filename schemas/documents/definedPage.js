@@ -18,6 +18,7 @@ const definedPageContentSchema = {
         { type: 'topBrands' },
         { type: 'bannerCarousal' },
         { type: 'catalogueBanner' },
+        { type: 'customMedia' },
         { type: 'imageWithText' },
         { type: 'imageWithTextGrid' },
         { type: 'richTextEditor' },
